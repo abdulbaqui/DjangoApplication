@@ -179,3 +179,6 @@ def Customer_Dropdown(request):
     Customer_Data = Customer.objects.filter(Status=True)
     return render(request,'Customer_Dropdown.html',context={'Customer_Data': Customer_Data})
 
+def FormCreation(request):
+    return render(request,"FormCreation.html")
+

@@ -11,4 +11,5 @@ urlpatterns = [
     path('sales', views.sales, name="sales"),
     path('purchase', views.purchase, name="purchase"),
     path('Customer', views.Customer_Dropdown, name="Customer"),
+    path('FormCreation',views.FormCreation,name="FormCreation"),
 ]
