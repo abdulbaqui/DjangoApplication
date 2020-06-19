@@ -180,5 +180,6 @@ def Customer_Dropdown(request):
     return render(request,'Customer_Dropdown.html',context={'Customer_Data': Customer_Data})
 
 def FormCreation(request):
+    print('hi')
     return render(request,"FormCreation.html")
 
